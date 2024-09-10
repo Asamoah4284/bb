@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Form</title>
+  </head>
+  <body>
+    <div>
+      <form
+        class="flex flex-wrap items-center gap-8 md: justify-center h-full md:mt-36 w-full p-6"
+        action=""
+      >
+        <!-- First Column -->
+        <div class="flex flex-col w-full md:basis-2/5 gap-6">
+          <!-- Email -->
+          <label class="relative">
+            <input
+              class="bg-[#FAFAFA] h-12 w-full rounded-lg border border-gray-300 outline-0 px-4 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition duration-150 ease-in-out"
+              type="email"
+              placeholder="Email"
+              required
+            />
+            <span class="absolute text-red-500 left-16 top-2">*</span>
+          </label>
+
+          <!-- Full Name -->
+          <label class="relative">
+            <input
+              class="bg-[#FAFAFA] h-12 w-full rounded-lg border border-gray-300 outline-0 px-4 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition duration-150 ease-in-out"
+              type="text"
+              placeholder="Full Name"
+              required
+            />
+            <span class="absolute text-red-500 left-24 top-2">*</span>
+          </label>
+
+          <!-- Stage Name -->
+          <label class="relative">
+            <input
+              class="bg-[#FAFAFA] h-12 w-full rounded-lg border border-gray-300 outline-0 px-4 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition duration-150 ease-in-out"
+              type="text"
+              placeholder="Stage Name"
+              required
+            />
+            <span class="absolute text-red-500 left-28 top-2">*</span>
+          </label>
+
+          <!-- Role -->
+          <label class="relative">
+            <input
+              class="bg-[#FAFAFA] h-12 w-full rounded-lg border border-gray-300 outline-0 px-4 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition duration-150 ease-in-out"
+              type="text"
+              placeholder="Role"
+              required
+            />
+            <span class="absolute text-red-500 left-14 top-2">*</span>
+          </label>
+
+          <!-- County -->
+          <label class="relative">
+            <input
+              class="bg-[#FAFAFA] h-12 w-full rounded-lg border border-gray-300 outline-0 px-4 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition duration-150 ease-in-out"
+              type="text"
+              placeholder="County"
+              required
+            />
+            <span class="absolute text-red-500 left-20 top-2">*</span>
+          </label>
+        </div>
+
+        <!-- Second Column -->
+        <div class="flex flex-col w-full md:basis-2/5 gap-6">
+          <!-- Spotify/Apple Music/Audiomack URL -->
+          <label class="relative">
+            <input
+              class="bg-[#FAFAFA] h-12 w-full rounded-lg border border-gray-300 outline-0 px-4 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition duration-150 ease-in-out"
+              type="text"
+              placeholder="Spotify, Apple Music or Audiomack URL"
+              required
+            />
+            <span class="absolute text-red-500 left-80 top-3">*</span>
+          </label>
+
+          <!-- YouTube URL (Optional) -->
+          <input
+            class="bg-[#FAFAFA] h-12 rounded-lg border border-gray-300 outline-0 px-4 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition duration-150 ease-in-out"
+            type="text"
+            placeholder="YouTube URL (Optional)"
+          />
+
+          <!-- TikTok URL (Optional) -->
+          <input
+            class="bg-[#FAFAFA] h-12 rounded-lg border border-gray-300 outline-0 px-4 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition duration-150 ease-in-out"
+            type="text"
+            placeholder="TikTok URL (Optional)"
+          />
+
+          <!-- Instagram URL (Optional) -->
+          <input
+            class="bg-[#FAFAFA] h-12 rounded-lg border border-gray-300 outline-0 px-4 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition duration-150 ease-in-out"
+            type="text"
+            placeholder="Instagram URL (Optional)"
+          />
+
+          <!-- Where did you hear about us -->
+          <label class="relative">
+            <input
+              class="bg-[#FAFAFA] h-12 w-full rounded-lg border border-gray-300 outline-0 px-4 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition duration-150 ease-in-out"
+              type="text"
+              placeholder="Where did you hear about us"
+              required
+            />
+            <span class="absolute text-red-500 left-60 top-3">*</span>
+          </label>
+        </div>
+      </form>
+
+      <div
+        class="bg-yellow-300 flex justify-center items-center w-3/4 md:w-2/3 mx-auto mt-8 rounded-lg py-4 shadow-lg"
+      >
+        <button
+          class="bg-black text-yellow-300 font-semibold text-lg px-8 py-2 rounded-md hover:bg-gray-800 transition-colors duration-300 ease-in-out"
+        >
+          Request an Invite
+        </button>
+      </div>
+      <p class="text-center mt-8 mb-8 px-8">
+        <a class="text-center" href=""
+          >We review submissions manually before approving access</a
+        >
+      </p>
+    </div>
+  </body>
+</html>
